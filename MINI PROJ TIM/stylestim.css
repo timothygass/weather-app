@@ -1,0 +1,131 @@
+body	{
+	background-color:lightgrey;
+}
+header {
+	background-color:lightyellow;
+	margin-bottom:20px;
+	box-shadow:10px 10px 5px rgb(91, 91, 92);
+	height:170px;
+	border-radius:10px 10px;
+}
+#info img {
+	width:250px;
+	height:200px;
+	float:right;
+}
+#pic img {
+	width:700px;
+	height:120px;
+}
+#stories img {
+	width:146px;
+	height:112px;
+	float:right;
+}
+@keyframes myMove {
+	0% {left:0px;}
+	25% {left:230px;}
+	50% {left:460px;}
+}
+.container {
+	width:960px;
+	margin:0 auto;
+.edit_nav {
+	margin:0;
+	padding:0;
+}
+.edit_nav li {
+	min-width:7.5em;
+	float:left;
+	margin-left:0.6em;
+	text-align: center;
+	padding-top:10px;
+}
+.edit_nav li a:hover {
+	background-color:lime;
+	transform:scale(1.16,1.16);
+}
+.pnormal {
+	clear: both;
+}
+.edit_nav li a{
+	background-color:aqua;
+	display:block;
+	text-decoration:none;
+	padding:0.3em;
+	font-weight:bold;
+	box-shadow:3px 3px 3px 3px lightblue;
+	border-radius:3px;
+	margin:0 0 0.2em 0;
+	width:80px;
+}
+#con_section {
+	background-color:black;
+	padding-top:30px;
+	padding:10px;
+}
+#con_section img {
+	width:500px;
+	height:200px;
+	float:right;
+	padding-top:0.0001px;
+}
+#intro {
+	background-color:#e8e8e8;
+	float:left;
+	width:65%;
+	margin-right:20px;
+	padding:15px;
+	margin-left:8px;
+	box-shadow:10px 10px 5px rgb(132, 136, 138);
+	margin-bottom:2px;
+	border-radius:35px 35px;
+}
+#signup {
+	background-color:#e8e8e8;
+	float:right;
+	margin-botom:30px;
+	width:20%;
+	padding:15px;
+	margin-right:7px;
+	box-shadow:10px 10px 5px rgb(132, 136, 138);
+	border-radius:35px 35px;
+}
+#signup input {
+	border-radius:15px;
+	padding:8px;
+}
+#info {
+	background-color:#e8e8e8;
+	float:left;
+	padding:10px;
+	height:230px;
+	width:45%;
+	margin:20px;
+	margin-left:8px;
+	box-shadow:10px 10px 5px rgb(91, 91, 92);
+	border-radius:40px 30px;
+}
+#stories {
+	background-color:#e8e8e8;
+	float:right;
+	padding:10px;
+	height:230px;
+	width:40%;
+	margin:20px;
+	margin-right:8px;
+	box-shadow:10px 10px 5px rgb(91, 91, 92);
+	border-radius:30px 30px;
+}
+footer {
+	background-color:black;
+	height:50px;
+	color:white;
+	text-align:right;
+	padding-right:10px;
+	padding-top:10px;
+}
+	
+		
+	
+     
