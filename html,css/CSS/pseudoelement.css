@@ -1,0 +1,71 @@
+h1::first-letter{
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: green;
+}
+
+p::first-line{
+  background-color: green;
+}
+
+P::selection{
+  background-color: brown;
+  color: white;
+}
+#apple::after{
+  content: "🍎";
+}
+#orange::after{
+  content: "🍊";
+  padding: 20px;
+}
+#banana::after{
+  content: "🍌";
+}
+#grapes::after{
+  content: "🍇";
+}
+ul li{
+  list-style: none;
+}
+li{
+  padding: 20px;
+  list-style-type: square;
+}
+
+li:hover:nth-child(1){
+  font-size: 2em;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px;
+  transition: 0.5s;
+  
+}
+li:hover:nth-child(2){
+  font-size: 2em;
+  background-color: orangered;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px;
+  transition: 0.5s;
+}
+li:hover:nth-child(3){
+  font-size: 2em;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px;
+  transition: 0.5s;
+}
+li:hover:nth-child(4){
+  font-size: 2em;
+  background-color: blueviolet;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px;
+  transition: 0.5s;
+}
+li:not(:hover){
+  background-color: gray;
+}

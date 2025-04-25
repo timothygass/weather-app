@@ -1,0 +1,54 @@
+
+.box{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid;
+font-size: 4em;
+}
+
+#box1{
+  background-color: salmon;
+
+}
+
+#box2{
+  background-color: seagreen;
+}
+
+#box3{
+  background-color: sandybrown;
+}
+
+#box4{
+  background-color: skyblue;
+}
+.container{
+  display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+.tri{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid;
+font-size: 4em;
+  border-bottom-right-radius: 30px;
+  margin: 10px;
+}
+#tri1{
+  background-color: rgb(235, 164, 157);
+}
+#tri2{
+  background-color: rgb(85, 136, 107);
+}
+#tri3{
+  background-color: rgb(225, 175, 132);
+}
+#tri4{
+  background-color: rgb(165, 213, 232);
+}
+#tri5{
+  background-color: aquamarine;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>second try</title>
+  <style>
+    .container{
+      width: 250px;
+      height: 300px;
+      background: ;
+    }
+    .card{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease;
+    }
+    .front{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      border-radius: 16px;
+      backface-visibility: hidden;
+      overflow: hidden;
+      box-shadow: 2px 4px 8px 0px;
+    }
+    .front img{
+      width: 250px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 16px 16px 0px 0px;
+    }
+    .front .title{
+      font-size: 2em;
+      font-weight: 800;
+      text-decoration: underline;
+    }
+
+    .back{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      border-radius: 16px;
+      backface-visibility: hidden;
+      background: green;
+      font-size: 1.2em;
+      font-weight: 600;
+      text-align: justify;
+      transform: rotateY(180deg);
+      box-shadow: 2px 4px 8px 0px;
+    
+    }
+    .back h2{
+      text-align: center;
+      text-decoration: underline red;
+    }
+.card:hover{
+transform: rotateY(180deg);
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="front">
+        <img src="4Runner.jpg" alt="A 4Runner Car">
+        <div class="content">
+          <div class="title">A 4Runner Car</div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nihil ratione, 
+          aspernatur tempore, quaerat eius numquam doloremque iure assumenda 
+          accusantium architecto perferendis eveniet. Laudantium iure hic possimus nihil distinctio corporis?
+        </div>
+      </div>
+
+      <div class="back">
+        <h2>MY BACK</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, asperiores? Delectus aliquam
+         ex enim libero deleniti modi atque a at excepturi soluta corporis, laboriosam nobis, repellendus, natus vel? Corporis, saepe!
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

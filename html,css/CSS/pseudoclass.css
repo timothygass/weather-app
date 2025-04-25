@@ -1,0 +1,64 @@
+a{
+  margin: 40%;
+}
+
+a:hover{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  background-color: hotpink;
+  border: solid black;
+  transition: 0.2;
+}
+a:active{
+  color: red;
+}
+a:visited{
+  color: green;
+}
+
+li:hover{
+  font-size: 1.5em;
+  transition: 0.1s;
+  background-color: green;
+   
+}
+li:not(:hover){
+background-color: grey;
+}
+li:nth-child(odd){
+  color: blue;
+}
+li:nth-child(even){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  color: sienna;
+}

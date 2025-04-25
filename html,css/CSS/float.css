@@ -1,0 +1,13 @@
+body{
+  margin: 0px;
+}
+#img{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+#img1{float: right;
+     margin-left: 20px;}
+.div{
+  border: solid;
+}

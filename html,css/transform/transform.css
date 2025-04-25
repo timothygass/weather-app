@@ -1,0 +1,15 @@
+body{
+  margin: 100px;
+}
+
+.box{
+  width: 200px;
+  height: 98px;
+  text-align: center;
+  border: 1px solid;
+font-size: 4em;
+font-weight: 800;
+background-color: sandybrown;
+
+transform: translate(5%) rotate(90deg) scale(0.5)/*skewx(40deg)/*scalex(2) rotate(10deg)*/;
+}

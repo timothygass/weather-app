@@ -1,0 +1,21 @@
+.container{
+  border: 5px groove hotpink;
+}
+/* a decedant */
+.container p{
+  background-color: aqua;
+}
+/* means child*/
+.container >p{
+  color: orangered;
+}
+
+/*a general sibling*/
+.container ~p{
+  background-color: blueviolet;
+}
+/* a adjacent sibling */
+.container + p{
+  font-size: 2em;
+  background-color: chartreuse;
+}

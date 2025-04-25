@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2% 6%;
+    }
+
+    .logo{
+      font-size: 40px;
+      font-weight: 700;
+      color: #474d59;
+    }
+
+    .logo span{
+      color: #04f90c;
+    }
+
+    ul li{
+      display: inline-block;
+      position: relative;
+      padding: 8px 12px;
+      list-style: none;
+    }
+
+    ul li a{
+      text-decoration: none;
+      color: #474d59;
+      font-size: 17px;
+      transition: 0.5s;
+    }
+
+    ul li a:hover{
+      color: #04f90c;
+    }
+
+    .active{
+      color: #04f90c;
+    }
+
+    .right .btn-1{
+      background-color: #8ff392;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .right .btn-2{
+      background-color: #8ff392;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .text{
+      color: #474d59;
+      padding: 80px 80px;
+      display: inline-block;
+    }
+
+    .text h1{
+      font-size: 50px;
+    }
+
+    .text span{
+      color: #04f90c;
+    }
+
+    .text p{
+      max-width: 50%;
+      margin: 20px 0;
+    }
+
+    .btn{
+      background-color: #04f90c;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      margin-top: 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 18px;
+      transition: 0.5s;
+    }
+
+    .btn:hover{
+      letter-spacing: 5px;
+    }
+
+    .circle{
+      width: 25%;
+      height: 200px;
+      background-color: #04f90c;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><span>E</span>commerce</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#" class="active">Shop</a></li>
+      <li><a href="#">Pages</a></li>
+      <li><a href="#">Elements</a></li>
+      <img src="pexels-adnan.jpg" alt="forest" width="25px">
+    </ul>
+    <div class="right">
+      <button class="btn-1">Login</button>
+      <button class="btn-2">Sign Up</button>
+    </div>
+  </header>
+
+  <div class="text">
+    <h1>
+      <span>Creative</span> Modern <br>Collection
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis harum consequatur ipsum architecto maxime, cum atque sed voluptate rerum error, doloribus 
+      deleniti. Accusantium et, totam officia dignissimos illo repudiandae corrupti!</p>
+      <button class="btn">Shop Now &#8594</button>
+  </div>
+  <div class="circle"></div>
+</body>
+</html>
