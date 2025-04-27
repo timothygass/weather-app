@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+
+
+}
+
+#counter{
+
+    font-size: 10em;
+
+}
+
+button{
+    padding: 10px 10px;
+    background-color: rgb(131, 131, 241);
+
+}
+
+#increase{
+    color: green;
+}
+
+#decrease
+
+button:hover{
+
+    background-color: rgb(53, 11, 96);
+}
