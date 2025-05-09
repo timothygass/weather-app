@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+
+
+}
+
+#temp{
+
+    font-size: 10em;
+
+}
+
+button{
+    padding: 10px 10px;
+    background-color: rgb(131, 131, 241);
+
+}
+
+#toFarenheit{
+    color: hsl(120, 60%, 25%);
+}
+
+#toCelsius
+
+button:hover{
+
+    background-color: rgb(99, 58, 139);
+}
